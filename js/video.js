@@ -58,11 +58,11 @@ function skipVideo(){
 function muteVideo(){
     if (video.muted){
         video.muted=false
-        mute.innerHTML='mute'
+        mute.innerHTML='Mute'
     }
     else {
         video.muted=true
-        mute.innerHTML='unmute'
+        mute.innerHTML='Unmute'
     }
 }
 function volVideo() {
